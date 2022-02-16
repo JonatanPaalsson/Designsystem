@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: currentColor;
+  border-color: #e5e7eb;
   /* 2 */
 }
 
@@ -468,29 +468,35 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.btn {
-  color: white;
+.backoffice {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 16px;
 }
 
-.btn.tile {
-  border: 1px solid blue;
+.backoffice.btn {
+  color: pink;
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(10 9 3 / var(--tw-bg-opacity));
+.blueberry {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 16px;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.blueberry.btn {
+  color: blue;
 }
 
-.font-bold {
-  font-weight: 700;
+.commerce {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 16px;
 }
 
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+.commerce.btn {
+  color: green;
 }
